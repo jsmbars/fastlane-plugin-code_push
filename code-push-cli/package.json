@@ -1,0 +1,87 @@
+{
+  "_from": "code-push-cli",
+  "_id": "code-push-cli@2.1.9",
+  "_inBundle": false,
+  "_integrity": "sha512-FslR8Bc6uh7b9jqiMpzn+jWq96W5cL0eyGflNUDBSPbg8tzD4X0D+Qb0O+ZUmP3yennBatAU/8VigHagwsUYYA==",
+  "_location": "/code-push-cli",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "code-push-cli",
+    "name": "code-push-cli",
+    "escapedName": "code-push-cli",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/code-push-cli/-/code-push-cli-2.1.9.tgz",
+  "_shasum": "e6ae5a5bca4f4d783b0436d5ccb019eb680a2275",
+  "_spec": "code-push-cli",
+  "_where": "/Users/igorpugachev",
+  "author": {
+    "name": "Microsoft Corporation"
+  },
+  "bin": {
+    "code-push": "script/cli.js"
+  },
+  "bugs": {
+    "url": "https://github.com/Microsoft/code-push/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "backslash": "^0.1.7",
+    "base-64": "^0.1.0",
+    "chalk": "^1.1.0",
+    "cli-table": "^0.3.1",
+    "code-push": "2.0.6",
+    "email-validator": "^1.0.3",
+    "gradle-to-js": "^1.0.1",
+    "jsonwebtoken": "^8.3.0",
+    "mkdirp": "^0.5.1",
+    "moment": "^2.21.0",
+    "opener": "^1.4.1",
+    "parse-duration": "0.1.1",
+    "plist": "1.2.0",
+    "progress": "^1.1.8",
+    "prompt": "^0.2.14",
+    "properties": "^1.2.1",
+    "q": "~1.4.1",
+    "recursive-fs": "0.1.4",
+    "rimraf": "^2.5.1",
+    "semver": "4.3.6",
+    "simctl": "0.0.9",
+    "slash": "1.0.0",
+    "update-notifier": "^0.5.0",
+    "which": "^1.2.7",
+    "wordwrap": "1.0.0",
+    "xml2js": "^0.4.16",
+    "yargs": "^6.5.0",
+    "yazl": "^2.4.1"
+  },
+  "deprecated": false,
+  "description": "Management CLI for the CodePush service",
+  "homepage": "https://microsoft.github.io/code-push",
+  "keywords": [
+    "code",
+    "push",
+    "cordova",
+    "react-native",
+    "react"
+  ],
+  "license": "MIT",
+  "main": "script/cli.js",
+  "name": "code-push-cli",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Microsoft/code-push.git"
+  },
+  "scripts": {
+    "test": "gulp test"
+  },
+  "version": "2.1.9"
+}
