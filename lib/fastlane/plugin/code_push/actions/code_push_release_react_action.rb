@@ -3,8 +3,8 @@ module Fastlane
     class CodePushReleaseReactAction < Action
       def self.run(params)
         Dir.chdir "#{params[:execution_dir_path]}" do
-          command = "npx code-push release-react #{params[:app_name]} #{params[:platform]} -d #{params[:deployment]} "\
-            "--des \"#{params[:description]}\" "
+          command = "npx appcenter codepush release-react -a #{params[:app_name]} -d #{params[:deployment]} "\
+            "--description \"#{params[:description]}\" "
           if params[:mandatory]
             command += "-m "
           end
@@ -15,7 +15,7 @@ module Fastlane
             command += "-x "
           end
           if params[:no_duplicate_release_error]
-            command += "--noDuplicateReleaseError "
+            command += "--disable-duplicate-release-error "
           end
           if params[:bundle_name]
             command += "-b #{params[:bundle_name]} "
