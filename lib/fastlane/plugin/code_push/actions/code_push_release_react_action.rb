@@ -71,7 +71,7 @@ module Fastlane
           FastlaneCore::ConfigItem.new(key: :deployment,
                                       type: String,
                                       optional: true,
-                                      default_value: "Staging",
+                                      default_value: "Production",
                                       description: "Deployment name for releasing to"),
           FastlaneCore::ConfigItem.new(key: :target_binary_version,
                                       is_string: false,
